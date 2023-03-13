@@ -5,7 +5,9 @@ import Card from '../UI/Card';
 import './Expenses.css';
 const Expenses = (props) => {
   return (
+   
     <Card className="expenses">
+        <h1>Yellow</h1>
       <ExpenseItem
         title={props.items[0].title}
         amount={props.items[0].amount}
